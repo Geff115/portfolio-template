@@ -18,18 +18,18 @@ const Hero = () => {
           <h1 className="text-center text-4xl md:text-6xl lg:text-8xl font-extrabold">
             Hey, I&apos;m {""}
             <span className="bg-gradient-to-r from-purple to-red-700 bg-clip-text text-transparent">
-             John Doe
+             Gabriel Effangha
             </span>
           </h1>
         </Reveal>
         <h2 className="title my-6 text-xl md:text-3xl lg:text-5xl">
-          I&apos;m a CWT Developer
+          I&apos;m a Software & ML Engineer specializing in Python.
         </h2>
         <p className="max-w-[700px] mx-auto">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          officiis, eum modi inventore natus velit voluptates laudantium nam
-          dicta? Et, sint sed? Ab consequuntur commodi et beatae animi
-          repellendus officia!
+          I have a strong focus on building intelligent
+          systems and applications using Python. I am focused on creating 
+          innovative solutions and leveraging the power of machine learning to 
+          drive efficiency and effectiveness in software applications.
         </p>
         <a className="mt-10 mx-auto" href="#contact">
           <Button
