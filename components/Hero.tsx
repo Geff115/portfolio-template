@@ -23,7 +23,7 @@ const Hero = () => {
           </h1>
         </Reveal>
         <h2 className="title my-6 text-xl md:text-3xl lg:text-5xl">
-          I&apos;m a Software & ML Engineer specializing in Python.
+          I&apos;m a Software & ML Engineer proficient in Python.
         </h2>
         <p className="max-w-[700px] mx-auto">
           I have a strong focus on building intelligent
