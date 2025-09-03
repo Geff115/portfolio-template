@@ -32,7 +32,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://gabrieleffangha.vercel.app"),
+  metadataBase: new URL("https://portfolio-template-nine-sandy.vercel.app"),
   title: {
     default: "Gabriel Effangha - Portfolio",
     template: "%s - Gabriel Effangha",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "Gabriel Effangha",
-      url: "https://gabrieleffangha.vercel.app",
+      url: "https://portfolio-template-nine-sandy.vercel.app",
     },
   ],
   generator: "Next.js",
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://gabrieleffangha.vercel.app",
+    url: "https://portfolio-template-nine-sandy.vercel.app",
     siteName: "Gabriel Effangha Portfolio",
     title: "Gabriel Effangha - Portfolio",
     description:
@@ -110,9 +110,7 @@ export const metadata: Metadata = {
   },
 
   verification: {
-    google: "your-google-verification-code",
-    yandex: "your-yandex-verification-code",
-    yahoo: "your-yahoo-verification-code",
+    google: "Zw8tM9HmRvQk-I43diwh8-yfgwPYfesZTREpSrXvx_s",
   },
 
   manifest: "/manifest.json",
