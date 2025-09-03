@@ -15,11 +15,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link
-          rel="icon"
-          href="https://codewithty.dev/images/logo.png"
-          sizes="any"
-        />
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="./favicon.ico" />
       </head>
       <body className={`${poppins.className}`}>{children}</body>
     </html>
@@ -34,71 +32,69 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://codewithty.dev"),
+  metadataBase: new URL("https://gabrieleffangha.vercel.app"),
   title: {
-    default: "CodeWithTy ✷ Tech Development Portfolio",
-    template: "%s - CodeWithTy",
+    default: "Gabriel Effangha - Portfolio",
+    template: "%s - Gabriel Effangha",
   },
   description:
-    "Professional portfolio template by CodeWithTy - showcasing expertise in web development, cybersecurity, blockchain, mobile apps, and data analysis. Build your tech career with our modern, responsive portfolio template.",
+    "Professional portfolio showcasing expertise in web development, software engineering, and innovative solutions. Explore my projects, skills, and professional journey.",
   keywords: [
-    "CodeWithTy",
-    "portfolio template",
+    "Gabriel Effangha",
     "web development",
-    "cybersecurity",
+    "software engineer",
     "blockchain development",
-    "mobile app development",
+    "fullstack developer",
+    "machine learning engineer",
     "data analysis",
-    "tech consulting",
-    "developer portfolio",
-    "Next.js portfolio",
-    "React portfolio",
-    "tech education",
-    "coding bootcamp",
+    "Next.js",
+    "Python",
+    "TypeScript",
+    "JavaScript",
   ],
   icons: {
     icon: "./favicon.ico",
     apple: "./apple-touch-icon.png",
   },
-  applicationName: "CodeWithTy Portfolio Template",
+  applicationName: "Gabriel Effangha",
   authors: [
     {
-      name: "CodeWithTy Team",
-      url: "https://codewithty.dev",
+      name: "Gabriel Effangha",
+      url: "https://gabrieleffangha.vercel.app",
     },
   ],
   generator: "Next.js",
   referrer: "origin",
-  creator: "CodeWithTy",
-  publisher: "CodeWithTy",
+  creator: "Gabriel Effangha",
+  publisher: "Gabriel Effangha",
   category: "technology",
 
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://codewithty.dev",
-    siteName: "CodeWithTy",
-    title: "CodeWithTy - Tech Development & Solution Experts",
+    url: "https://gabrieleffangha.vercel.app",
+    siteName: "Gabriel Effangha Portfolio",
+    title: "Gabriel Effangha - Portfolio",
     description:
-      "Professional portfolio template for developers specializing in web development, cybersecurity, blockchain, and mobile applications.",
+      "Professional portfolio showcasing expertise in web development, software engineering, and machine learning.",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "CodeWithTy Portfolio Template",
+        alt: "Gabriel Effangha - Portfolio",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    site: "@codewithty",
-    creator: "@codewithty",
-    title: "CodeWithTy - Tech Development Portfolio Template",
+    site: "@GeffNoah",
+    creator: "@GeffNoah",
+    title: "Gabriel Effangha - Professional Portfolio",
     description:
-      "Modern portfolio template for tech professionals and developers",
-    images: ["/twitter-image.png"],
+      "My portfolio showcases my skills and projects in software engineering and machine learning.",
+    images: ["/og-image.png"],
   },
 
   robots: {
@@ -124,7 +120,7 @@ export const metadata: Metadata = {
   other: {
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-status-bar-style": "black-translucent",
-    "apple-mobile-web-app-title": "CodeWithTy",
+    "apple-mobile-web-app-title": "Gabriel Effangha",
     "mobile-web-app-capable": "yes",
     "msapplication-TileColor": "#0f172a",
     "msapplication-config": "/browserconfig.xml",

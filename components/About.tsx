@@ -20,8 +20,8 @@ const About = () => (
         className="flex-col text-left p-3 md:p-5 lg:p-10 gap-5 min-h-full"
       >
         <p>
-          Hey! I&apos;m <strong>Gabriel Effangha</strong> a Software & ML
-          Engineer.
+          Hey! I&apos;m <strong>Gabriel Effangha</strong> a Junior Software & ML
+          Engineer proficient in Python.
         </p>
         <p>
           I specialize in building intelligent systems and applications 
@@ -32,9 +32,9 @@ const About = () => (
           contribute to projects that align with this vision.
         </p>
         <p>
-          I’m always up for great conversations, whether it’s about a new
+          I&apos;m always up for great conversations, whether it&apos;s about a new
           project, tech trends, or even the latest action flick. Feel free to
-          reach out. Let’s connect!
+          reach out. Let&apos;s connect!
         </p>
       </Sparkle>
 

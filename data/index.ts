@@ -72,7 +72,6 @@ export const projects = [
     titleClassName: "justify-start",
     img: "https://i.pinimg.com/736x/c7/de/01/c7de016c811fa5fae9d7120402f27645.jpg",
     github: "https://github.com/Geff115/brand-identity-extractor",
-    link: "#",
     techs: ["FastAPI", "Uvicorn", "Playwright", "Beautiful Soup", "Pillow", "ColorThief", "OpenAI API", "Redis", "PyTest", "HTTPX", "Docker"],
   },
   {
@@ -95,7 +94,6 @@ export const projects = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     img: "https://i.pinimg.com/originals/bf/c3/fb/bfc3fb764ff5f4d8d9ecb6da8544709c.gif",
     github: "https://github.com/Geff115/HealthHaven",
-    link: "#",
     techs: ["FastAPI", "Vanilla JS", "HTML", "CSS", "Vercel", "PostgreSQL"],
   },
 ];
@@ -111,9 +109,13 @@ export const workExperience = [
     period: "Nov 2024 - July 2025",
     skills: [
       "API Development",
+      "RESTful APIs",
       "Security & Authentication",
+      "Database Management",
       "Google OAuth",
       "LinkedIn OAuth",
+      "Next.js",
+      "Tailwind CSS",
       "Figma",
       "Prototyping",
       "User Testing",
@@ -160,7 +162,7 @@ export const socialMedia = [
   },
   {
     id: 3,
-    img: "assets/twitter.svg",
+    img: "assets/x.svg",
     link: "https://twitter.com/GeffNoah",
   },
   {
